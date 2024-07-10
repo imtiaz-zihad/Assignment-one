@@ -266,3 +266,139 @@ align-items: center;
 iframe{
     border-radius: 16px;
 }
+/* Current page start here */
+.current-target-container{
+    width: 90%;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.current-section-content{
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+  
+}
+.first-one{
+width: 90%;
+height: 113px;
+margin: 0 auto;
+text-align: center;
+}
+.first-one h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.first-one p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.target-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.skills{
+    padding: 50px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0px 6px 70px 0px rgba(0,0, 0, 0.06);
+}
+.skills h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skills p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.skills a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+
+}
+.support-section-container{
+    width: 90%;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    background-blend-mode: overlay;
+
+ 
+}
+.support-section-content{
+width: 90%;
+height: 90%;
+/* border: 2px solid rgb(0, 0, 0); */
+margin: 0 auto;
+margin-top: 17px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.support-title{
+    color: white;
+    text-align: center;
+}
+.support h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.support-submit{
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.write-here{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding: 19px 20px 19px 20px;
+}
+.submit-here{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 10px;
+}
